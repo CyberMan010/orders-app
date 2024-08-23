@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "orders-app",
+    "slug": "orders-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ramadanouv.ordersapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ramadanouv.ordersapp"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e006aa3c-1fd1-4ec3-a7e0-14e745dfea27"
+      }
+    },
+    "owner": "ramadanouv",
+    "updates": {
+      "url": "https://u.expo.dev/e006aa3c-1fd1-4ec3-a7e0-14e745dfea27"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
